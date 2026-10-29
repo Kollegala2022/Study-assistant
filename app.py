@@ -34,8 +34,8 @@ demo = gr.Interface(
       gr.Radio(choices=list(persona.keys()), value="Friendly", label="Personality")
   ],
   outputs=gr.Textbox(lines=10, label="Answer"),
-  title="AI assistance",
-  description="Ask your question to get response from Study asssistance..."
+  title="AI Study Assistant",
+  description="Ask your question to get help from your personal Study Assistant."
 )
 
 
